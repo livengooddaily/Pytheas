@@ -287,7 +287,7 @@ def process_file_worker(t):
                                file_num_columns,  # width of dataframe
                                file_max_columns_processed,  # width of dataframe processed by pytheas
                                Json(convert_predictions(predictions, blank_lines, last_line_processed, file_num_columns,
-                                                        file_max_columns_processed)),
+                                                        file_max_columns_processed, discovered_delimiter)),
                                crawl_datafile_key))
     return predictions, processing_time
 
@@ -1231,7 +1231,7 @@ class PYTHEAS:
                     predictions = self.extract_tables(file_dataframe.iloc[:, :slice_idx], blank_lines)
 
                     annotations = convert_predictions(predictions, blank_lines, last_line_processed, file_num_columns,
-                                                      file_max_columns_processed)
+                                                      file_max_columns_processed, discovered_delimiter)
 
         except Exception as e:
             print(f'filepath={filepath} failed to process, {e}: {traceback.format_exc()}')
@@ -1481,12 +1481,13 @@ class PYTHEAS:
         con.close()
 
 
-def convert_predictions(predictions, blank_lines, last_line_processed, file_num_columns, file_max_columns_processed):
+def convert_predictions(predictions, blank_lines, last_line_processed, file_num_columns, file_max_columns_processed, discovered_delimiter):
     annotations = {}
     annotations["blanklines"] = blank_lines
     annotations["lines_processed"] = last_line_processed
     annotations["columns_in_file"] = file_num_columns
     annotations["columns_in_file_considered"] = file_max_columns_processed
+    annotations["discovered_delimiter"] = discovered_delimiter
     annotations["tables"] = []
     for key in predictions.keys():
         table = dict()
