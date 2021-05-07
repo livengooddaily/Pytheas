@@ -1,8 +1,10 @@
-import unittest
-import pandas as pd
 import pprint
+import unittest
+
 from pytheas import pytheas
+
 pp = pprint.PrettyPrinter(indent=4)
+
 
 class TestPytheas(unittest.TestCase):
 

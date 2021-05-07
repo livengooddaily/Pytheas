@@ -1,12 +1,14 @@
-import os, sys, argparse, traceback
-from sqlalchemy import MetaData, Table, Column, Integer, String, create_engine
-from dotmap import DotMap
+import argparse
 import json
-import pandas as pd
-import numpy as np
+import os
+import sys
 from multiprocessing import Pool
+
+import pandas as pd
+from dotmap import DotMap
+from sqlalchemy import MetaData, Table, Column, Integer, String, create_engine
 from tqdm import tqdm
-import pprint as pp
+
 sys.path.append('../pytheas')
 from table_classifier_utilities import predict_header_indexes, combo_row
 
@@ -18,49 +20,55 @@ def save_table_attributes(datatable_key, attributes):
 
     with opendata_engine.begin() as conn:
         # delete any saved attributes that might exist for this table
-        conn.execute("DELETE FROM datacolumn where datatable=%s", (datatable_key, ))
+        conn.execute("DELETE FROM datacolumn where datatable=%s", (datatable_key,))
 
         # insert attributes
         insert_values = list()
         for attribute_idx in attributes.keys():
             values = {
-                "datatable":datatable_key, 
-                "attribute_idx":attribute_idx, 
-                "csv_idx":attributes[attribute_idx]["csv_idx"], 
-                "attribute_name":attributes[attribute_idx]["attribute_name"], 
-                "merged_name":attributes[attribute_idx]["merged_name"],
-                "pd_dtype":attributes[attribute_idx]["pd_dtype"]
-                }
+                "datatable": datatable_key,
+                "attribute_idx": attribute_idx,
+                "csv_idx": attributes[attribute_idx]["csv_idx"],
+                "attribute_name": attributes[attribute_idx]["attribute_name"],
+                "merged_name": attributes[attribute_idx]["merged_name"],
+                "pd_dtype": attributes[attribute_idx]["pd_dtype"]
+            }
             insert_values.append(values)
-        opendata_engine.execute(datacolumn_table.insert(),insert_values)
+        opendata_engine.execute(datacolumn_table.insert(), insert_values)
 
 
-def label_attributes_in_file(task):  
+def label_attributes_in_file(task):
     with opendata_engine.begin() as  conn:
-            conn.execute("""DELETE FROM label_attributes WHERE datafile = %s""", (task.datafile_key))  
+        conn.execute("""DELETE FROM label_attributes WHERE datafile = %s""", (task.datafile_key))
     try:
         # low_memory=False -> whole columns will be read in first, then  proper types determined.
-        file_dataframe = pd.read_csv(task.path, delimiter=task.delimiter, encoding=task.encoding, header=None, low_memory=False, engine='c')
+        file_dataframe = pd.read_csv(task.path, delimiter=task.delimiter, encoding=task.encoding, header=None,
+                                     low_memory=False, engine='c')
 
         # print(f"\nFILE:\n\n{file_dataframe}")
         # pp.pprint(task)
         header_upper_bound = 0
-        tables = sorted(task.annotations["tables"], key = lambda table: table["table_counter"])
-        
+        tables = sorted(task.annotations["tables"], key=lambda table: table["table_counter"])
+
         for table in tables:
 
             discovered_body_dataframe = file_dataframe.loc[table["data_start"]:table["data_end"]]
 
-            discovered_body_dataframe = discovered_body_dataframe.convert_dtypes(infer_objects=True, convert_string=True, convert_integer=True, convert_boolean=True)  
+            discovered_body_dataframe = discovered_body_dataframe.convert_dtypes(infer_objects=True,
+                                                                                 convert_string=True,
+                                                                                 convert_integer=True,
+                                                                                 convert_boolean=True)
             for c in discovered_body_dataframe.columns:
-                discovered_body_dataframe[c]=pd.to_numeric(discovered_body_dataframe[c], errors='ignore')
+                discovered_body_dataframe[c] = pd.to_numeric(discovered_body_dataframe[c], errors='ignore')
             discovered_header_dataframe = pd.DataFrame()
 
             if header_upper_bound != table["data_start"]:
-                candidate_header_dataframe = file_dataframe.loc[header_upper_bound:table["data_start"]-1]                
-                discovered_header_idxs, _ = predict_header_indexes(pd.concat([candidate_header_dataframe, discovered_body_dataframe], ignore_index=True), len(candidate_header_dataframe), table['table_counter'])
-                discovered_header_idxs = [i+header_upper_bound for i in discovered_header_idxs]
-                if len(discovered_header_idxs)>0:
+                candidate_header_dataframe = file_dataframe.loc[header_upper_bound:table["data_start"] - 1]
+                discovered_header_idxs, _ = predict_header_indexes(
+                    pd.concat([candidate_header_dataframe, discovered_body_dataframe], ignore_index=True),
+                    len(candidate_header_dataframe), table['table_counter'])
+                discovered_header_idxs = [i + header_upper_bound for i in discovered_header_idxs]
+                if len(discovered_header_idxs) > 0:
                     discovered_header_dataframe = file_dataframe.loc[discovered_header_idxs]
 
             # print(f"\n\n\n-- Table {table['table_counter']}:\n\n")
@@ -69,13 +77,13 @@ def label_attributes_in_file(task):
             # print(f"Table Body (discovered): \n\n{discovered_body_dataframe}\n\n") 
 
             # update header_upper_bound for next table
-            header_upper_bound = table["data_end"]+1
+            header_upper_bound = table["data_end"] + 1
 
             # stack discovered header with discovered body
             try:
                 table_dataframe = pd.concat([discovered_header_dataframe, discovered_body_dataframe])
             except:
-                table_dataframe=discovered_body_dataframe
+                table_dataframe = discovered_body_dataframe
 
             # remove all empty columns
             table_dataframe.dropna(axis='columns', how='all', inplace=True)
@@ -86,17 +94,18 @@ def label_attributes_in_file(task):
 
             table_attributes = {}
             for attribute_idx, csv_idx in enumerate(table_dataframe.columns):
-                merged_name = True #TODO implement flag for merged attribute name
+                merged_name = True  # TODO implement flag for merged attribute name
                 table_attributes[attribute_idx] = {
-                    "csv_idx":csv_idx,
-                    "attribute_name": None if pd.isnull(attribute_names[attribute_idx]) else attribute_names[attribute_idx],
+                    "csv_idx": csv_idx,
+                    "attribute_name": None if pd.isnull(attribute_names[attribute_idx]) else attribute_names[
+                        attribute_idx],
                     "merged_name": merged_name,
                     "pd_dtype": pd.api.types.infer_dtype(discovered_body_dataframe[csv_idx], skipna=True)
                 }
 
             # pp.pprint(table_attributes)
             save_table_attributes(table["datatable_key"], table_attributes)
-            
+
     except Exception as e:
 
         exc_type, exc_value, exc_traceback = sys.exc_info()
@@ -108,7 +117,9 @@ def label_attributes_in_file(task):
         # traceback.print_exception(exc_type, exc_value, exc_traceback,
         #                         limit=2, file=sys.stdout)
         with opendata_engine.begin() as  conn:
-            conn.execute("""INSERT INTO  label_attributes (datafile, exc_type, exc_value, exception) VALUES (%s, %s, %s, %s)""",(task.datafile_key, str(exc_type), str(exc_value), type(e).__name__))
+            conn.execute(
+                """INSERT INTO  label_attributes (datafile, exc_type, exc_value, exception) VALUES (%s, %s, %s, %s)""",
+                (task.datafile_key, str(exc_type), str(exc_value), type(e).__name__))
 
         # print("*** print_exc:")
         # traceback.print_exc(limit=2, file=sys.stdout)
@@ -129,35 +140,36 @@ def label_attributes_in_file(task):
 
 def task_generator(files):
     for datafile in files:
-        
-        task = DotMap()                
+
+        task = DotMap()
         task.path = os.path.join(args.crawl_directory, datafile["path"])
         task.datafile_key = datafile["datafile_key"]
         task.delimiter = datafile["delimiter"]
         task.encoding = datafile["encoding"]
-        task.annotations = {"tables":[]}        
+        task.annotations = {"tables": []}
 
         with opendata_engine.connect() as conn:
             result = conn.execute("""SELECT datatable_key, table_index, from_index, to_index
                                         FROM datatable
                                         WHERE datafile = %s
-                                        ORDER BY table_index""", (task.datafile_key,)) 
+                                        ORDER BY table_index""", (task.datafile_key,))
             for table in result:
                 task.annotations["tables"].append({
-                    "datatable_key":table["datatable_key"],
-                    "table_counter":table["table_index"],
-                    "data_start":table["from_index"],
+                    "datatable_key": table["datatable_key"],
+                    "table_counter": table["table_index"],
+                    "data_start": table["from_index"],
                     "data_end": table["to_index"]
-                })                                                
+                })
 
-        yield(task)
+        yield (task)
+
 
 if __name__ == "__main__":
 
-    parser = argparse.ArgumentParser()    
+    parser = argparse.ArgumentParser()
     parser.add_argument("-i", "--input_portals", nargs="*", default=['open.canada.ca_data'])
-    parser.add_argument("-d", "--crawl_directory", default = "/home/christina/OPEN_DATA_CRAWL_2018")
-    parser.add_argument("-p", "--NPROC", type = int, default = 4)
+    parser.add_argument("-d", "--crawl_directory", default="/home/christina/OPEN_DATA_CRAWL_2018")
+    parser.add_argument("-p", "--NPROC", type=int, default=4)
     parser.add_argument("-c", "--db_cred_file", default="../database_credentials.json")
 
     args = parser.parse_args(sys.argv[1:])
@@ -166,35 +178,34 @@ if __name__ == "__main__":
         credentials = json.load(f)
 
     # Database connection credentials 
-    db_cred = DotMap() 
+    db_cred = DotMap()
     db_cred.user = credentials["user"]
     db_cred.password = credentials["password"]
     db_cred.database = credentials["ground_truth_db"]
     db_cred.opendata_database = credentials["profile_db"]
     db_cred.port = credentials["port"]
 
-    opendata_engine = create_engine(f'postgresql+psycopg2://{db_cred.user}:{db_cred.password}@localhost:{db_cred.port}/{db_cred.opendata_database}')
-
+    opendata_engine = create_engine(
+        f'postgresql+psycopg2://{db_cred.user}:{db_cred.password}@localhost:{db_cred.port}/{db_cred.opendata_database}')
 
     if not opendata_engine.dialect.has_table(opendata_engine, 'label_attributes'):  # If table don't exist, Create.
         metadata = MetaData(opendata_engine)
         # Create a table with the appropriate Columns
         Table('label_attributes', metadata,
-            Column('datafile', Integer, primary_key=True, nullable=False), 
-            Column('exc_type', String), 
-            Column('exc_value', String),
-            Column('exception', String))
+              Column('datafile', Integer, primary_key=True, nullable=False),
+              Column('exc_type', String),
+              Column('exc_value', String),
+              Column('exception', String))
         # Implement the creation
         metadata.create_all()
-            
 
     for portal in args.input_portals:
-        with opendata_engine.connect() as conn: 
+        with opendata_engine.connect() as conn:
             result = conn.execute("""SELECT count(1) as count 
                                      FROM datafile 
                                      WHERE endpoint_dbname = %s
                                             AND datafile_key in 
-                                                (SELECT datafile from datatable)""", (portal, ))
+                                                (SELECT datafile from datatable)""", (portal,))
 
             NINPUTS = result.fetchone()[0]
             print(f'NINPUTS={NINPUTS}')
@@ -203,7 +214,7 @@ if __name__ == "__main__":
                             FROM datafile 
                             WHERE endpoint_dbname = %s
                                 AND datafile_key in  (SELECT datafile from datatable)"""
-                                , (portal, )) 
+                                 , (portal,))
 
             with Pool(processes=args.NPROC) as pool:
                 with tqdm(total=NINPUTS) as pbar:
