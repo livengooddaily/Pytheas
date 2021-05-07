@@ -4,6 +4,7 @@ src/pytheas/__pycache__/
 # ignore virtual environment
 pytheas-venv/
 pytheas-env/
+venv/
 
 # ignore visual studio code workspace
 pytheas.workspace.code-workspace
@@ -27,3 +28,6 @@ src/pytheas/save_training_input.py
 
 # 
 src/build/
+
+# Pycharm
+.idea/
