@@ -1,0 +1,38 @@
+"","Dept Family","Entity","Date","Expense Type","Expense Area","Supplier","Transaction  No","Net","VAT","Gross"
+"1","DCMS","NMM",2013-05-31,"Hospitality","Director","The Admirable Crichton Ltd",37067,1081.32,0,1081.32
+"2","DCMS","NMM",2013-03-31,"Hospitality","Corporate Development","The Admirable Crichton Ltd",37039,26644.2,0,26644.2
+"3","DCMS","NMM",2013-06-10,"Buildings Repairs & Maint.","Estates","Cofely",37207,24047.6,4809.52,28857.12
+"4","DCMS","NMM",2013-05-30,"Buildings Repairs & Maint.","Estates","Cofely",36766,18721.59,3744.32,22465.91
+"5","DCMS","NMM",2013-04-24,"Buildings Repairs & Maint.","Estates","Cofely",36947,392.38,78.48,470.86
+"6","DCMS","NMM",2013-06-11,"Electricity","Estates","EDF Energy",36875,29916.13,1495.81,31411.94
+"7","DCMS","NMM",2013-06-25,"Exhibition Build","Exhibitions","The Hub Consulting Ltd",37038,487.3,97.46,584.76
+"8","DCMS","NMM",2013-06-07,"Fix &  Fits","Exhibitions","The Hub Consulting Ltd",36733,123799.47,24759.89,148559.36
+"9","DCMS","NMM",2013-05-20,"Exhibition Build","Exhibitions","The Hub Consulting Ltd",36726,19004.7,3800.94,22805.64
+"10","DCMS","NMM",2013-06-21,"Plant & Equipment","Information Technology","Planet IT Ltd",36995,200,40,240
+"11","DCMS","NMM",2013-06-21,"Plant & Equipment","Information Technology","Planet IT Ltd",36995,22875,4575,27450
+"12","DCMS","NMM",2013-05-28,"Plant & Equipment","Digital Media","Planet IT Ltd",36955,1329,265.8,1594.8
+"13","DCMS","NMM",2013-05-22,"Equipment < £1000","Digital Media","Planet IT Ltd",36949,744,148.8,892.8
+"14","DCMS","NMM",2013-03-27,"Computer Equipment","Information Technology","Planet IT Ltd",37011,1895,379,2274
+"15","DCMS","NMM",2013-03-27,"Computer Equipment","Information Technology","Planet IT Ltd",37011,90.6,18.12,108.72
+"16","DCMS","NMM",2013-06-26,"Computer Equipment","Information Technology","Syx Automations",37175,28980,5796,34776
+"17","DCMS","NMM",2013-06-05,"Computer Equipment","Information Technology","Syx Automations",36870,5000,1000,6000
+"18","DCMS","NMM",2013-06-05,"Computer Equipment","Information Technology","Syx Automations",36870,1130,226,1356
+"19","DCMS","NMM",2013-04-30,"Computer Equipment","Information Technology","Syx Automations",36693,7800,1560,9360
+"20","DCMS","NMM",2013-04-30,"Computer Equipment","Information Technology","Syx Automations",36693,2400,480,2880
+"21","DCMS","NMM",2013-04-30,"Computer Equipment","Information Technology","Syx Automations",36693,3000,600,3600
+"22","DCMS","NMM",2013-04-30,"Computer Equipment","Information Technology","Syx Automations",36693,1100,220,1320
+"23","DCMS","NMM",2013-04-30,"Computer Equipment","Information Technology","Syx Automations",36693,632.8,126.56,759.36
+"24","DCMS","NMM",2013-06-25,"Advertising","Marketing","Total Media Limited",37080,3163.5,632.7,3796.2
+"25","DCMS","NMM",2013-06-25,"Advertising","Marketing","Total Media Limited",37080,3.16,0,3.16
+"26","DCMS","NMM",2013-06-17,"Advertising","Marketing","Total Media Limited",36970,32339.41,6467.88,38807.29
+"27","DCMS","NMM",2013-06-17,"Advertising","Marketing","Total Media Limited",36970,32.34,0,32.34
+"28","DCMS","NMM",2013-06-12,"Advertising","Marketing","Total Media Limited",37174,60.91,12.18,73.09
+"29","DCMS","NMM",2013-06-12,"Advertising","Marketing","Total Media Limited",36899,17057,3411.4,20468.4
+"30","DCMS","NMM",2013-06-12,"Advertising","Marketing","Total Media Limited",36899,17.06,0,17.06
+"31","DCMS","NMM",2013-05-08,"Advertising","Marketing","Total Media Limited",36913,287.97,57.59,345.56
+"32","DCMS","NMM",2013-05-08,"Advertising","Marketing","Total Media Limited",36913,1118.33,223.67,1342
+"33","DCMS","NMM",2013-05-08,"Advertising","Marketing","Total Media Limited",36913,1.41,0.28,1.69
+"34","DCMS","NMM",2013-04-22,"Advertising","Marketing","Total Media Limited",36996,1462.5,292.5,1755
+"35","DCMS","NMM",2013-04-22,"Advertising","Marketing","Total Media Limited",36996,1.46,0,1.46
+"36","DCMS","NMM",2013-06-28,"Service Contracts","Information Technology","Ultima Business Solutions",37254,29048.92,5809.78,34858.7
+"37","DCMS","NMM",2013-05-31,"Specialist Services","Information Technology","Ultima Business Solutions",36964,950,190,1140

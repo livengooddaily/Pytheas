@@ -1,0 +1,15 @@
+"","CPS outcomes by principal offence category south_wales","Number of Defendants convicted","Convictions Percentage","Number of Defendants Unsuccessful Prosecutions","Unsuccessful Prosecutions Percentage"
+"1","A Homicide",1,0,0,0
+"2","B Offences Against The Person",250,73.3,93,26.7
+"3","C Sexual Offences",11,79.5,11,20.5
+"4","D Burglary",84,85.3,20,14.7
+"5","E Robbery",14,94.7,4,5.3
+"6","F Theft And Handling",330,92.6,18,7.4
+"7","G Fraud And Forgery",19,82.1,2,17.9
+"8","H Criminal Damage",97,81.3,10,18.8
+"9","I Drugs Offences",173,93.9,11,6.1
+"10","J Public Order Offences",184,80.4,23,19.6
+"11","K All Other Offences (excluding Motoring)",58,75.5,17,24.5
+"12","L Motoring Offences",489,89,60,11
+"13","Admin Finalisations",0,0,20,100
+"14","TOTAL",1710,85.5,289,14.5

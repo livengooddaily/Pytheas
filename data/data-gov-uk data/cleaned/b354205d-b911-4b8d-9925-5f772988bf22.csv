@@ -1,0 +1,50 @@
+"","Department family","Entity","Date","Expense Type","Expense area","Supplier","Transaction number","AP Amount (<U+00A3>)"
+"1","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Clinical&Medical-Commercial Sector","ACUTE COMMISSIONING","SPIRE HEALTHCARE LTD",217999,83998
+"2","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec NHS Trust-Contract Baseline","ACUTE COMMISSIONING","MAIDSTONE&TUNBRIDGE WELLS NHS TRUST",229917,80910.67
+"3","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec NHS Trust-CQUIN","ACUTE COMMISSIONING","SUSSEX COMMUNITY NHS TRUST",254392,740.03
+"4","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec NHS Trust-Contract Baseline","ACUTE COMMISSIONING","SUSSEX COMMUNITY NHS TRUST",254392,29599.8
+"5","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec Fdtn Trust-CQUIN","ACUTE COMMISSIONING","GUYS & ST THOMAS HOSPITAL NHS FOUNDATION TRUST",271606,1149.28
+"6","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec Fdtn Trust-Contract Baseline","ACUTE COMMISSIONING","GUYS & ST THOMAS HOSPITAL NHS FOUNDATION TRUST",271606,91915.72
+"7","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec NHS Trust-CQUIN","ACUTE COMMISSIONING","KENT COMMUNITY HEALTH NHS TRUST",271609,1753.68
+"8","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec NHS Trust-Contract Baseline","ACUTE COMMISSIONING","KENT COMMUNITY HEALTH NHS TRUST",271609,140294.24
+"9","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec Fdtn Trust-CQUIN","ACUTE COMMISSIONING","UNIVERSITY COLLEGE LONDON HOSPITALS NHS FOUNDATION TRUST",271644,594.48
+"10","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec Fdtn Trust-Contract Baseline","ACUTE COMMISSIONING","UNIVERSITY COLLEGE LONDON HOSPITALS NHS FOUNDATION TRUST",271644,47558.52
+"11","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec Fdtn Trust-CQUIN","ACUTE COMMISSIONING","UNIVERSITY COLLEGE LONDON HOSPITALS NHS FOUNDATION TRUST",271648,587.22
+"12","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec Fdtn Trust-Contract Baseline","ACUTE COMMISSIONING","UNIVERSITY COLLEGE LONDON HOSPITALS NHS FOUNDATION TRUST",271648,46977.78
+"13","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec Fdtn Trust-Contract Baseline","ACUTE COMMISSIONING","GUYS & ST THOMAS HOSPITAL NHS FOUNDATION TRUST",271693,91915.72
+"14","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec Fdtn Trust-CQUIN","ACUTE COMMISSIONING","GUYS & ST THOMAS HOSPITAL NHS FOUNDATION TRUST",271693,1149.28
+"15","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Clinical&Medical-Independent Sector","ACUTE COMMISSIONING","HORDER CENTRE",271716,125424.77
+"16","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Clinical&Medical-Commercial Sector","ACUTE COMMISSIONING","SPIRE HEALTHCARE LTD",271731,83998
+"17","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Clinical&Medical-Serv Recd-F Trsts","AMBULANCE SERVICES","SOUTH EAST COAST AMBULANCE SERVICE NHS FOUNDATION TRUST",271738,649916.67
+"18","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Clinical&Medical-Serv Recd-F Trsts","AMBULANCE SERVICES","SOUTH EAST COAST AMBULANCE SERVICE NHS FOUNDATION TRUST",271740,649916.67
+"19","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec Fdtn Trust-Contract Baseline","ACUTE COMMISSIONING","QUEEN VICTORIA HOSPITAL NHS FOUNDATION TRUST",271742,104171.36
+"20","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Charges from CSU","CORPORATE COSTS & SERVICES","NHS SURREY AND SUSSEX CSU",271744,107547
+"21","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec NHS Trust-CQUIN","ACUTE COMMISSIONING","BRIGHTON AND SUSSEX UNIVERSITY HOSPITALS NHS TRUST",271750,3029
+"22","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec NHS Trust-Contract Baseline","ACUTE COMMISSIONING","BRIGHTON AND SUSSEX UNIVERSITY HOSPITALS NHS TRUST",271750,242295
+"23","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec NHS Trust-CQUIN","ACUTE COMMISSIONING","ST GEORGES HEALTHCARE NHS TRUST",271756,311.11
+"24","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec NHS Trust-Contract Baseline","ACUTE COMMISSIONING","ST GEORGES HEALTHCARE NHS TRUST",271756,24888.89
+"25","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec Fdtn Trust-Contract Baseline","ACUTE COMMISSIONING","QUEEN VICTORIA HOSPITAL NHS FOUNDATION TRUST",271854,104171.36
+"26","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec NHS Trust-Contract Baseline","ACUTE COMMISSIONING","BRIGHTON AND SUSSEX UNIVERSITY HOSPITALS NHS TRUST",271855,297499.17
+"27","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec NHS Trust-CQUIN","ACUTE COMMISSIONING","BRIGHTON AND SUSSEX UNIVERSITY HOSPITALS NHS TRUST",271855,3718.74
+"28","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec NHS Trust-CQUIN","ACUTE COMMISSIONING","EAST SUSSEX HEALTHCARE NHS TRUST",271856,113397.79
+"29","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec NHS Trust-Contract Baseline","ACUTE COMMISSIONING","EAST SUSSEX HEALTHCARE NHS TRUST",271856,9071823.47
+"30","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec Fdtn Trust-CQUIN","ACUTE COMMISSIONING","SUSSEX PARTNERSHIP NHS FOUNDATION TRUST",276739,19354.88
+"31","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec Fdtn Trust-Contract Baseline","ACUTE COMMISSIONING","SUSSEX PARTNERSHIP NHS FOUNDATION TRUST",276739,1548417.12
+"32","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec Fdtn Trust-Non Contract","MENTAL HEALTH CONTRACTS","SUSSEX PARTNERSHIP NHS FOUNDATION TRUST",276864,1567772
+"33","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec Fdtn Trust-Non Contract","MENTAL HEALTH CONTRACTS","SUSSEX PARTNERSHIP NHS FOUNDATION TRUST",276865,161212
+"34","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Cont Care-Funded Nursing Care Allow","FUNDED NURSING CARE","ST DOMINICS NURSING & RESIDENTIAL HOME",276910,29051.7
+"35","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"C&M-PMS CCG Constitution","LOCAL ENHANCED SERVICES","DR DEWHURST & PARTNERS",279118,2059.4
+"36","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"C&M-PMS LES Anti-coagulation","LOCAL ENHANCED SERVICES","DR DEWHURST & PARTNERS",279118,4514.46
+"37","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"C&M-PMS LES Basket of Procedures","LOCAL ENHANCED SERVICES","DR DEWHURST & PARTNERS",279118,13834
+"38","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"C&M-PMS LES Dermatology/Cryotherapy","LOCAL ENHANCED SERVICES","DR DEWHURST & PARTNERS",279118,11757.5
+"39","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec NHS Trust-Contract Baseline","ACUTE COMMISSIONING","MAIDSTONE&TUNBRIDGE WELLS NHS TRUST",282523,79911.77
+"40","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec NHS Trust-CQUIN","ACUTE COMMISSIONING","MAIDSTONE&TUNBRIDGE WELLS NHS TRUST",282523,998.9
+"41","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Clinical&Medical-Commercial Sector","ACUTE COMMISSIONING","VIRGIN CARE PROVIDER SERVICES LTD",289199,181599.97
+"42","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Clinical&Medical-Voluntary Sector","HOSPICES","ST MICHAEL'S HOSPICE",307039,112312.2
+"43","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Clinical&Medical-Commercial Sector","ACUTE COMMISSIONING","BUPA CARE HOMES",307042,31365
+"44","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Prescribing","PRESCRIBING","SCRIPTSWITCH LTD",312845,73691.57
+"45","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec NHS Trust-CQUIN","ACUTE COMMISSIONING","KENT COMMUNITY HEALTH NHS TRUST",331128,1753.68
+"46","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec NHS Trust-Contract Baseline","ACUTE COMMISSIONING","KENT COMMUNITY HEALTH NHS TRUST",331128,140294.24
+"47","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec Fdtn Trust-Contract Baseline","ACUTE COMMISSIONING","KING'S COLLEGE HOSPITAL NHS FOUNDATION TRUST",331135,39879
+"48","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Hcare Srv Rec Fdtn Trust-Non Contract","MENTAL HEALTH CONTRACTS","SUSSEX PARTNERSHIP NHS FOUNDATION TRUST",341542,161212
+"49","Department of Health","NHS Hastings & Rother CCG",2013-05-31,"Clinical&Medical-Voluntary Sector","MENTAL HEALTH SERVICES - OTHER","TURNING POINT SERVICES LTD",357153,117062.4

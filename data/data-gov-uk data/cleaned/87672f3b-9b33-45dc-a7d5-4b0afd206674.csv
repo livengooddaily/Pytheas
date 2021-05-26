@@ -1,0 +1,91 @@
+"","Department","Date","Expense Type","Expense Area","Supplier","Transaction Number","Amount"
+"1","NHS Telford & Wrekin",2012-03-28,"Purchase of Healthcare - Community Health Services","Commissioning","Oakengates Medical Practice","1 23.3.12",30200
+"2","NHS Telford & Wrekin",2012-03-28,"Purchase of Healthcare - Community Health Services","Public Health","MIND","100324",30000
+"3","NHS Telford & Wrekin",2012-03-23,"Pathology From Other NHS Bodies","Commissioning","SHREWSBURY AND TELFORD HOSPITAL NHS TRUST","10051545",30987.43
+"4","NHS Telford & Wrekin",2012-03-23,"Drugs","Commissioning","SHREWSBURY AND TELFORD HOSPITAL NHS TRUST","10063220",32935.24
+"5","NHS Telford & Wrekin",2012-03-23,"Drugs","Commissioning","SHREWSBURY AND TELFORD HOSPITAL NHS TRUST","10064027",53445.8
+"6","NHS Telford & Wrekin",2012-03-23,"Purchase of Healthcare- General And Acute","Commissioning","SHREWSBURY AND TELFORD HOSPITAL NHS TRUST","10064560",1511607
+"7","NHS Telford & Wrekin",2012-03-23,"Purchase of Healthcare- General And Acute","Commissioning","SHREWSBURY AND TELFORD HOSPITAL NHS TRUST","10064562",250000
+"8","NHS Telford & Wrekin",2012-03-28,"Revenue Grant","Commissioning","TELFORD & WREKIN CVS","11484",12844.5
+"9","NHS Telford & Wrekin",2012-03-28,"Revenue Grant","Commissioning","TELFORD & WREKIN CVS","11484",12844.5
+"10","NHS Telford & Wrekin",2012-03-22,"Purchase of Healthcare- Mental Health","Commissioning","RITE SOCIAL ENTERPRISES LTD","12/100102",110000
+"11","NHS Telford & Wrekin",2012-03-22,"Out of Hours Medical Provision","Commissioning","SHROPSHIRE DOCTORS CO-OP LTD","1346",144606.99
+"12","NHS Telford & Wrekin",2012-03-28,"Purchase of Healthcare- General And Acute","Commissioning","Shropshire Partners In Care","14407",125000
+"13","NHS Telford & Wrekin",2012-03-23,"Purchase of Healthcare- General And Acute","Commissioning","BIRMINGHAM CHILDRENS HOSPITAL NHS FOUNDATION TRUST","15654092",82897
+"14","NHS Telford & Wrekin",2012-03-23,"Purchase of Healthcare- General And Acute","Commissioning","BIRMINGHAM CHILDRENS HOSPITAL NHS FOUNDATION TRUST","15655132",25223
+"15","NHS Telford & Wrekin",2012-03-28,"Purchase of Healthcare- General And Acute","Commissioning","BRITISH PREGNANCY ADVISORY SERVICE","18580",53690
+"16","NHS Telford & Wrekin",2012-03-23,"Purchase of Healthcare- General And Acute","Commissioning","ROBERT JONES AND AGNES HUNT NHS FT","20049221",2e+05
+"17","NHS Telford & Wrekin",2012-03-28,"LINks For Patient Reference Group","Corporate","AGE CONCERN","278",30000
+"18","NHS Telford & Wrekin",2012-03-28,"Purchase of Healthcare - Community Health Services","Commissioning","AGE CONCERN","282",30000
+"19","NHS Telford & Wrekin",2012-03-22,"Purchase of Healthcare - Community Health Services","Commissioning","TELFORD & WREKIN COUNCIL","4026830",26411.59
+"20","NHS Telford & Wrekin",2012-03-22,"Purchase of Healthcare - Community Health Services","Commissioning","TELFORD & WREKIN COUNCIL","4032072",135741
+"21","NHS Telford & Wrekin",2012-03-28,"Revenue Grant","Commissioning","TELFORD & WREKIN COUNCIL","4035375",697496.63
+"22","NHS Telford & Wrekin",2012-03-28,"Revenue Grant","Commissioning","TELFORD & WREKIN COUNCIL","4035876",490376
+"23","NHS Telford & Wrekin",2012-03-22,"Purchase of Healthcare - Community Health Services","Commissioning","TELFORD & WREKIN COUNCIL","4036265",277326
+"24","NHS Telford & Wrekin",2012-03-28,"Revenue Grant","Commissioning","TELFORD & WREKIN COUNCIL","4039175",30517
+"25","NHS Telford & Wrekin",2012-03-15,"Audit Fees : Statutory","Corporate","AUDIT COMMISSION","4040220",36000
+"26","NHS Telford & Wrekin",2012-03-15,"Purchase of Healthcare - Community Health Services","Commissioning","SHROPSHIRE COMMUNITY HEALTH NHS TRUST","50001516",1607646
+"27","NHS Telford & Wrekin",2012-03-23,"Research Governance From Other NHS Bodies","Corporate","SHROPSHIRE COMMUNITY HEALTH NHS TRUST","50001588",5535
+"28","NHS Telford & Wrekin",2012-03-23,"Oracle Recharge From Other NHS Bodies","Corporate","SHROPSHIRE COMMUNITY HEALTH NHS TRUST","50001588",7416
+"29","NHS Telford & Wrekin",2012-03-23,"Occupational HealthFrom Other NHS Bodies","Corporate","SHROPSHIRE COMMUNITY HEALTH NHS TRUST","50001588",61857
+"30","NHS Telford & Wrekin",2012-03-23,"Human Resources From Other NHS Bodies","Corporate","SHROPSHIRE COMMUNITY HEALTH NHS TRUST","50001588",83187
+"31","NHS Telford & Wrekin",2012-03-23,"IM & T From Other NHS Bodies","Corporate","SHROPSHIRE COMMUNITY HEALTH NHS TRUST","50001588",340884
+"32","NHS Telford & Wrekin",2012-03-29,"Purchase of Healthcare - Community Health Services","Commissioning","SHROPSHIRE COMMUNITY HEALTH NHS TRUST","50001593",61526
+"33","NHS Telford & Wrekin",2012-03-27,"Capital ","Corporate","SHROPSHIRE COMMUNITY HEALTH NHS TRUST","50001616",199111.71
+"34","NHS Telford & Wrekin",2012-03-15,"Purchase of Health Care  - Accident And Emergency","Commissioning","TAUNTON AND SOMERSET NHS FOUNDATION TRUST","59021021",226.54
+"35","NHS Telford & Wrekin",2012-03-15,"Purchase of Health Care  - General & Acute","Commissioning","TAUNTON AND SOMERSET NHS FOUNDATION TRUST","59021021",29870.3
+"36","NHS Telford & Wrekin",2012-03-28,"Purchase of Health Care - Community Health Services","Commissioning","BRITISH RED CROSS","650018614",25000
+"37","NHS Telford & Wrekin",2012-03-23,"Purchase of Health Care  - General & Acute","Commissioning","ALDER HEY CHILDRENS NHS FOUNDTION TRUST","91002083",116766
+"38","NHS Telford & Wrekin",2012-03-28,"Continuing Health Care  - Residential Long Stay Expenditure","Commissioning","TELFORD & WREKIN COUNCIL","CHC FEB12",60.54
+"39","NHS Telford & Wrekin",2012-03-28,"Continuing Health Care - Learning Difficulties","Commissioning","TELFORD & WREKIN COUNCIL","CHC FEB12",12464.87
+"40","NHS Telford & Wrekin",2012-03-28,"Continuing Health Care - Mental Health","Commissioning","TELFORD & WREKIN COUNCIL","CHC FEB12",19866.33
+"41","NHS Telford & Wrekin",2012-03-28,"Continuing Health Care - Physical Disabilities","Commissioning","TELFORD & WREKIN COUNCIL","CHC FEB12",74001.93
+"42","NHS Telford & Wrekin",2012-03-28,"Continuing Health Care - Elderly","Commissioning","TELFORD & WREKIN COUNCIL","CHC FEB12",156116.75
+"43","NHS Telford & Wrekin",2012-03-01,"Continuing Health Care  - Residential Long Stay Expenditure","Commissioning","TELFORD & WREKIN COUNCIL","CHC JAN12",64.72
+"44","NHS Telford & Wrekin",2012-03-01,"Continuing Health Care - Learning Difficulties","Commissioning","TELFORD & WREKIN COUNCIL","CHC JAN12",16118.52
+"45","NHS Telford & Wrekin",2012-03-01,"Continuing Health Care - Mental Health","Commissioning","TELFORD & WREKIN COUNCIL","CHC JAN12",21236.42
+"46","NHS Telford & Wrekin",2012-03-01,"Continuing Health Care - Physical Disabilities","Commissioning","TELFORD & WREKIN COUNCIL","CHC JAN12",56788.5
+"47","NHS Telford & Wrekin",2012-03-01,"Continuing Health Care - Elderly","Commissioning","TELFORD & WREKIN COUNCIL","CHC JAN12",131964.56
+"48","NHS Telford & Wrekin",2012-03-23,"Purchase of Health Care - Mental Health","Commissioning","SOUTH STAFFORDSHIRE AND SHROPSHIRE HEALTHCARE NHS FOUNDATION TRUST","I0045337",260000
+"49","NHS Telford & Wrekin",2012-03-23,"Purchase of Health Care - Mental Health","Commissioning","SOUTH STAFFORDSHIRE AND SHROPSHIRE HEALTHCARE NHS FOUNDATION TRUST","I0045675",50000
+"50","NHS Telford & Wrekin",2012-03-28,"Public Health Research","Public Health","UNIVERSITY OF WORCESTER","INV125159",30000
+"51","NHS Telford & Wrekin",2012-03-08,"Purchase of Healthcare - Community Health Services","Commissioning","LIGHTHOUSE HEALTHCARE LIMITED","LHL2010072",58031.27
+"52","NHS Telford & Wrekin",2012-03-22,"Purchase of Healthcare - Community Health Services","Commissioning","LIGHTHOUSE HEALTHCARE LIMITED","LHL2010076",54287.32
+"53","NHS Telford & Wrekin",2012-03-01,"Alternative Provider Medical Services","Commissioning","MALLING HEALTH LLP","MAR12",62830.47
+"54","NHS Telford & Wrekin",2012-03-08,"Purchase of Health Care  - General & Acute","Commissioning","BIRMINGHAM EAST AND NORTH PCT","MAR12",2144988
+"55","NHS Telford & Wrekin",2012-03-08,"General Medical Services","Commissioning","MATRIX REALTY MEDICAL LIMITED","MAR12",44451.3
+"56","NHS Telford & Wrekin",2012-03-08,"Rent","Corporate","OAK COTTAGE PARTNERSHIP","MAR12",40320
+"57","NHS Telford & Wrekin",2012-03-15,"Purchase of Health Care  - General & Acute","Commissioning","UNIVERSITY HOSPITAL OF NORTH STAFFS NHS TRUST","MAR12",115983
+"58","NHS Telford & Wrekin",2012-03-15,"Purchase of Health Care  - General & Acute","Commissioning","UNIVERSITY HOSPITAL BIRMINGHAM NHS FOUNDATION TRUST","MAR12",153257
+"59","NHS Telford & Wrekin",2012-03-15,"Purchase of Health Care - Mental Health","Commissioning","SOUTH STAFFORDSHIRE AND SHROPSHIRE HEALTHCARE NHS FOUNDATION TRUST","MAR12",28319
+"60","NHS Telford & Wrekin",2012-03-15,"Purchase of Health Care  - General & Acute","Commissioning","SHREWSBURY AND TELFORD HOSPITAL NHS TRUST","MAR12",7802813
+"61","NHS Telford & Wrekin",2012-03-15,"Purchase of Health Care  - General & Acute","Commissioning","THE ROYAL WOLVERHAMPTON HOSPITALS NHS TRUST","MAR12",109223
+"62","NHS Telford & Wrekin",2012-03-15,"Purchase of Health Care  - General & Acute","Commissioning","ROBERT JONES AND AGNES HUNT NHS FT","MAR12",462432
+"63","NHS Telford & Wrekin",2012-03-15,"Purchase of Health Care  - General & Acute","Commissioning","MID STAFFORDSHIRE NHS FOUNDATION TRUST","MAR12",59823
+"64","NHS Telford & Wrekin",2012-03-15,"Purchase of Health Care  - General & Acute","Commissioning","BIRMINGHAM CHILDRENS HOSPITAL NHS FOUNDATION TRUST","MAR12",57285
+"65","NHS Telford & Wrekin",2012-03-01,"Alternative Provider Medical Services","Commissioning","MALLING HEALTH LLP","MAR12 TELFORD",68949.72
+"66","NHS Telford & Wrekin",2012-03-15,"Purchase of Health Care - Mental Health","Commissioning","SOUTH STAFFORDSHIRE AND SHROPSHIRE HEALTHCARE NHS FOUNDATION TRUST","MAR12A",81816
+"67","NHS Telford & Wrekin",2012-03-15,"Purchase of Health Care - Mental Health","Commissioning","SOUTH STAFFORDSHIRE AND SHROPSHIRE HEALTHCARE NHS FOUNDATION TRUST","MAR12B",1484793
+"68","NHS Telford & Wrekin",2012-03-28,"Purchase of Healthcare - Community Health Services","Commissioning","NACRO","NOI/000198",70000
+"69","NHS Telford & Wrekin",2012-03-28,"Purchase of Healthcare - Community Health Services","Commissioning","NACRO","NOI/00199",70000
+"70","NHS Telford & Wrekin",2012-03-15,"Revenue Grant","Commissioning","SMILEWORKS DENTAL PRACTICE","PREMISES GRANT NEWPORT",75490
+"71","NHS Telford & Wrekin",2012-03-15,"Revenue Grant","Commissioning","DENTISTS","PREMISES GRANT WOODSIDE",64099
+"72","NHS Telford & Wrekin",2012-03-28,"Health Trainer ","Public Health","SOUTH BIRMINGHAM COLLEGE","SINH/00007583",37600
+"73","NHS Telford & Wrekin",2012-03-01,"Dispensing drugs","Commissioning","Wellington Road Surgery","Wellington Road Surgery",76113.19
+"74","NHS Telford & Wrekin",2012-03-22,"General Medical Services","Commissioning","Dawley Medical Practice","Dawley Medical Practice",33972.75
+"75","NHS Telford & Wrekin",2012-03-22,"Opticians","Commissioning","Visionplus Telford","Visionplus Telford",41849.8
+"76","NHS Telford & Wrekin",2012-03-27,"Personal Medical Services","Commissioning","Lawley Medical Services","Lawley Medical Services",60149.4
+"77","NHS Telford & Wrekin",2012-03-30,"General Medical Services","Commissioning","Stirchley Medical Practice","Stirchley Medical Practice",96496.33
+"78","NHS Telford & Wrekin",2012-03-30,"General Medical Services","Commissioning","Charlton Street Medical Practice","Charlton Street Medical Practice",64459.23
+"79","NHS Telford & Wrekin",2012-03-30,"General Medical Services","Commissioning","Dawley Medical Practice","Dawley Medical Practice",60614.56
+"80","NHS Telford & Wrekin",2012-03-30,"General Medical Services","Commissioning","Donnington Medical Practice","Donnington Medical Practice",84324.43
+"81","NHS Telford & Wrekin",2012-03-30,"General Medical Services","Commissioning","Sutton Hill Medical Practice","Sutton Hill Medical Practice",53292.52
+"82","NHS Telford & Wrekin",2012-03-30,"General Medical Services","Commissioning","Wellington Road Medical Practice","Wellington Road Medical Practice",88010.84
+"83","NHS Telford & Wrekin",2012-03-30,"General Medical Services","Commissioning","Oakengates Medical Practice","Oakengates Medical Practice",100213.61
+"84","NHS Telford & Wrekin",2012-03-30,"General Medical Services","Commissioning","Wellington Medical Practice","Wellington Medical Practice",163488.47
+"85","NHS Telford & Wrekin",2012-03-30,"General Medical Services","Commissioning","Woodside Medical Practice","Woodside Medical Practice",52065.19
+"86","NHS Telford & Wrekin",2012-03-30,"General Medical Services","Commissioning","Linden Hall Surgery","Linden Hall Surgery",82555.16
+"87","NHS Telford & Wrekin",2012-03-30,"General Medical Services","Commissioning","Shawbirch Medical Practice","Shawbirch Medical Practice",75799.9
+"88","NHS Telford & Wrekin",2012-03-30,"General Medical Services","Commissioning","Ironbridge Medical Practice","Ironbridge Medical Practice",31892.3
+"89","NHS Telford & Wrekin",2012-03-30,"General Medical Services","Commissioning","Church Close Surgery","Church Close Surgery",37067.73
+"90","NHS Telford & Wrekin",2012-03-30,"General Medical Services","Commissioning","Trinity Healthcare","Trinity Healthcare",54344.44

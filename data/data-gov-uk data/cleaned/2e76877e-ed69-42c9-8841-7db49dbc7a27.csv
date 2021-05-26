@@ -1,0 +1,60 @@
+"","Department family","Entity","Date","Expense Type","Expense area","Supplier","Purchase invoice number","AP Amount (<U+00A3>)"
+"1","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Clinical&Medical-Voluntary Sector","PALLIATIVE CARE","WILLOW WOOD HOSPICE","S275",73056
+"2","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Cont Care- Palliative Care","CHC ADULT FULLY FUNDED","TAMESIDE METROPOLITAN BOROUGH COUNCIL","60365662",16076.94
+"3","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Cont Care-Learning Disab(65+)","CHC ADULT FULLY FUNDED","TAMESIDE METROPOLITAN BOROUGH COUNCIL","60365662",28601.96
+"4","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Cont Care-Learning Disab(<65)","CHC ADULT FULLY FUNDED","TAMESIDE METROPOLITAN BOROUGH COUNCIL","60365662",170047.11
+"5","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Cont Care-Mental Health (<65)","CHC ADULT FULLY FUNDED","TAMESIDE METROPOLITAN BOROUGH COUNCIL","60365662",49813.92
+"6","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Cont Care-Physical Disab (65+)","CHC ADULT FULLY FUNDED","TAMESIDE METROPOLITAN BOROUGH COUNCIL","60365662",69260.41
+"7","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Cont Care-Physical Disab (<65)","CHC ADULT FULLY FUNDED","TAMESIDE METROPOLITAN BOROUGH COUNCIL","60365662",18500.83
+"8","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Computer Software/License","CORPORATE COSTS & SERVICES","QC SUPPLIES LTD","5776308",54122
+"9","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Clinical&Medical-Independent Sector","AMBULANCE SERVICES","ARRIVA TRANSPORT SOLUTIONS","1001704",72460.41
+"10","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Hcare Srv Rec NHS Trust-Non Contract","NCAS/OATS","ROYAL LIVERPOOL AND BROADGREEN UNIVERSITY HOSPITALS NHS TRUST","8610013888",31974.91
+"11","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Services From Local Authorities","FUNDED NURSING CARE","TAMESIDE METROPOLITAN BOROUGH COUNCIL","62267593",469271
+"12","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Services From Local Authorities","FUNDED NURSING CARE","DERBYSHIRE COUNTY COUNCIL","1.0002E+17",85887.13
+"13","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Services From Local Authorities","COMMISSIONING - NON ACUTE","TAMESIDE METROPOLITAN BOROUGH COUNCIL","60365992",103108
+"14","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Clinical&Medical-Clinical Other","MENTAL HEALTH SERVICES - SPECIALIST SERVICES","JOHN MUNROE HOSPITAL LTD","223229",9600
+"15","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Clinical&Medical-Independent Sector","MENTAL HEALTH SERVICES - ADULTS","JOHN MUNROE HOSPITAL LTD","223229",9630
+"16","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Cont Care-Mental Health (<65)","CHC ADULT FULLY FUNDED","JOHN MUNROE HOSPITAL LTD","223229",28692.9
+"17","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Hcare Srv Rec Fdtn Trust-Contract Baseline","ACUTE COMMISSIONING","WRIGHTINGTON WIGAN & LEIGH NHS FOUNDATION TRUST","2110010420",74788
+"18","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Hcare Srv Rec NHS Trust-Contract Baseline","NHS 111","NORTH WEST AMBULANCE SERVICE NHS TRUST","4110008638",22550
+"19","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Hcare Srv Rec Fdtn Trust-Contract Baseline","ACUTE COMMISSIONING","UNIVERSITY HOSPITAL OF SOUTH MANCHESTER NHS FOUNDATION TRUST","312081",367325
+"20","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Hcare Srv Rec Fdtn Trust-Over/ Under Performance","ACUTE COMMISSIONING","SALFORD ROYAL NHS FOUNDATION TRUST","2000011477",-87811
+"21","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Clinical&Medical-Independent Sector","OUT OF HOURS","GO TO DOC LTD","6504",145351
+"22","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Cont Care-Learning Disab(<65)","CHC ADULT JOINT FUNDED","DERBYSHIRE COUNTY COUNCIL","1.0002E+17",32894.99
+"23","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Cont Care-Learning Disab(65+)","CHC ADULT JOINT FUNDED","DERBYSHIRE COUNTY COUNCIL","1.0002E+17",11644.31
+"24","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Clinical&Medical-Clinical Other","CHC ADULT JOINT FUNDED","DERBYSHIRE COUNTY COUNCIL","1.0002E+17",9758.57
+"25","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Cont Care-Physical Disab (<65)","CHC ADULT FULLY FUNDED","DERBYSHIRE COUNTY COUNCIL","1.0002E+17",671.91
+"26","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Cont Care-Physical Disab (65+)","CHC ADULT FULLY FUNDED","DERBYSHIRE COUNTY COUNCIL","1.0002E+17",280.26
+"27","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Cont Care-Mental Health (65+)","CHC ADULT FULLY FUNDED","DERBYSHIRE COUNTY COUNCIL","1.0002E+17",14666.9
+"28","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Hcare Srv Rec Fdtn Trust-Contract Baseline","ACUTE COMMISSIONING","CENTRAL MANCHESTER UNIVERSITY HOSPITALS NHS FOUNDATION TRUST","6210000197",1777275
+"29","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Cont Care-Physical Disab (<65)","CHC ADULT FULLY FUNDED","TAMESIDE METROPOLITAN BOROUGH COUNCIL","60365675",25349.16
+"30","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Cont Care-Physical Disab (65+)","CHC ADULT FULLY FUNDED","TAMESIDE METROPOLITAN BOROUGH COUNCIL","60365675",52243.5
+"31","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Cont Care-Mental Health (<65)","CHC ADULT FULLY FUNDED","TAMESIDE METROPOLITAN BOROUGH COUNCIL","60365675",54755.72
+"32","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Cont Care-Learning Disab(<65)","CHC ADULT FULLY FUNDED","TAMESIDE METROPOLITAN BOROUGH COUNCIL","60365675",169295.9
+"33","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Cont Care-Learning Disab(65+)","CHC ADULT FULLY FUNDED","TAMESIDE METROPOLITAN BOROUGH COUNCIL","60365675",29299.33
+"34","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Cont Care- Palliative Care","CHC ADULT FULLY FUNDED","TAMESIDE METROPOLITAN BOROUGH COUNCIL","60365675",5104.14
+"35","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Clinical&Medical-Othe Public Sector","WINTER PRESSURES","TAMESIDE METROPOLITAN BOROUGH COUNCIL","60365798",86250
+"36","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Hcare Srv Rec Fdtn Trust-Contract Baseline","ACUTE COMMISSIONING","STOCKPORT NHS FOUNDATION TRUST","40047539",871558
+"37","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Hcare Srv Rec Fdtn Trust-Contract Baseline","COMMUNITY SERVICES","STOCKPORT NHS FOUNDATION TRUST","40047556",1638361
+"38","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Clinical&Medical-Serv Recd-F Trsts","COMMUNITY SERVICES","STOCKPORT NHS FOUNDATION TRUST","40047557",132998
+"39","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Hcare Srv Rec Fdtn Trust-Non Contract","ACUTE COMMISSIONING","TAMESIDE HOSPITAL NHS FOUNDATION TRUST","3110003670",213519.06
+"40","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Hcare Srv Rec Fdtn Trust-Non Contract","ACUTE COMMISSIONING","TAMESIDE HOSPITAL NHS FOUNDATION TRUST","3110003659",24064.42
+"41","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Hcare Srv Rec Fdtn Trust-Contract Baseline","ACUTE COMMISSIONING","TAMESIDE HOSPITAL NHS FOUNDATION TRUST","3110003666",9256437.55
+"42","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Clinical&Medical-Independent Sector","ACUTE COMMISSIONING","BRIDGEWATER HOSPITAL","73",46681.18
+"43","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Hcare Srv Rec NHS Trust-Contract Baseline","AMBULANCE SERVICES","NORTH WEST AMBULANCE SERVICE NHS TRUST","4110008671",577018
+"44","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Hcare Srv Rec NHS Trust-Contract Baseline","ACUTE COMMISSIONING","PENNINE ACUTE HOSPITALS NHS TRUST","107297",306279
+"45","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Hcare Srv Rec Fdtn Trust-Contract Baseline","MENTAL HEALTH CONTRACTS","PENNINE CARE NHS FOUNDATION TRUST","1010003963",1762581
+"46","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Hcare Srv Rec Fdtn Trust-CQUIN","MENTAL HEALTH CONTRACTS","PENNINE CARE NHS FOUNDATION TRUST","1010003963",22032
+"47","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Clinical&Medical-Independent Sector","COMMISSIONING - NON ACUTE","HYDE PHYSIOTHERAPY CENTRE","2014004",33833.33
+"48","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Clinical&Medical-Independent Sector","ACUTE COMMISSIONING","SPAMEDICA LTD","NHSTMG015",53737.33
+"49","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Hcare Srv Rec Fdtn Trust-Contract Baseline","ACUTE COMMISSIONING","SALFORD ROYAL NHS FOUNDATION TRUST","1000150578",146160
+"50","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Hcare Srv Rec Fdtn Trust-Non Contract","ACUTE COMMISSIONING","SALFORD ROYAL NHS FOUNDATION TRUST","1000150265",34874
+"51","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Clinical&Medical-Independent Sector","ACUTE COMMISSIONING","BMI HEALTHCARE COLLECTIONS","25267",60091.17
+"52","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Hcare Srv Rec Fdtn Trust-Contract Baseline","ACUTE COMMISSIONING","STOCKPORT NHS FOUNDATION TRUST","40047559",22118
+"53","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Clinical&Medical-Independent Sector","COMMISSIONING - NON ACUTE","GO TO DOC LTD","6518",21666.67
+"54","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Clinical&Medical-Independent Sector","ACUTE COMMISSIONING","SPIRE HEALTHCARE LTD","01Y310314FLEXMAN",21235.06
+"55","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Hcare Srv Rec Fdtn Trust-Non Contract","ACUTE COMMISSIONING","SALFORD ROYAL NHS FOUNDATION TRUST","1000150722",138884
+"56","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Clinical&Medical-Voluntary Sector","HOSPICES","WILLOW WOOD HOSPICE","S281",43190
+"57","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Clinical&Medical-Voluntary Sector","HOSPICES","WILLOW WOOD HOSPICE","S280",131568
+"58","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Clinical&Medical-Commercial Sector","INTERMEDIATE CARE","MERIDIAN HEALTHCARE LTD","50150414",261299.33
+"59","Department of Health","NHS Tameside And Glossop CCG",2014-04-30,"Hcare Srv Rec Fdtn Trust-Contract Baseline","ACUTE COMMISSIONING","WRIGHTINGTON WIGAN & LEIGH NHS FOUNDATION TRUST","2110010871",78356
