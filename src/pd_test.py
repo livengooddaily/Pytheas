@@ -10,7 +10,7 @@ Pytheas = pytheas.API()
 #load pretrained rule weights
 Pytheas.load_weights('pytheas/trained_rules.json')
 
-directory = '../data/open_data/'
+directory = '../data/open_data/hypoparsr/original/'
 
 for file in os.listdir(directory):
     filepath = directory + file

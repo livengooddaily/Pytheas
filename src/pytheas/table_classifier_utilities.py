@@ -1,6 +1,6 @@
 import codecs
 import copy
-import csv
+import clevercsv as csv
 import os
 import string
 import sys

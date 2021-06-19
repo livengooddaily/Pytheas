@@ -1,4 +1,4 @@
-import csv
+import clevercsv as csv
 import os
 import sys
 

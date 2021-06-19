@@ -1,6 +1,6 @@
 import argparse
 import codecs
-import csv
+import clevercsv as csv
 # import string_utils
 import io
 import sys

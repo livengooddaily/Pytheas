@@ -3,7 +3,7 @@ import codecs
 # from chardet.universaldetector import UniversalDetector
 # import chardet
 import copy
-import csv
+import clevercsv as csv
 import json
 import os
 # LOG

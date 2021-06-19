@@ -1,5 +1,5 @@
 import codecs
-import csv
+import clevercsv as csv
 import os
 import sys
 from functools import reduce
